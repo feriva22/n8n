@@ -137,7 +137,6 @@ jobs:
               "platform": ["amd64"],
               "include": [{
                 "platform": "amd64",
-                "runner": "blacksmith-4vcpu-ubuntu-2204",
                 "docker_platform": "linux/amd64"
               }]
             }'
@@ -147,11 +146,10 @@ jobs:
               "platform": ["amd64", "arm64"],
               "include": [{
                 "platform": "amd64",
-                "runner": "blacksmith-4vcpu-ubuntu-2204",
+      
                 "docker_platform": "linux/amd64"
               }, {
                 "platform": "arm64",
-                "runner": "blacksmith-4vcpu-ubuntu-2204-arm",
                 "docker_platform": "linux/arm64"
               }]
             }'
